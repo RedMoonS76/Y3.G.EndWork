@@ -1,0 +1,956 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Cainos.PixelArtPlatformer_Dungeon.AddShadow" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Pixel Art Platformer - Dungeon\Script\AddShadow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.PixelArtPlatformer_Dungeon.Chest" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAQAAAACAAICAAAAAAAAAQAAAAEAAAAAAAAASCAAA=</HashCode>
+      <FileName>Assets\Cainos\Pixel Art Platformer - Dungeon\Script\Chest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.PixelArtPlatformer_Dungeon.Door" Collapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAQAAAACAAICAAAAAAAAAQAAAAEAAAAAAAAASCAAA=</HashCode>
+      <FileName>Assets\Cainos\Pixel Art Platformer - Dungeon\Script\Door.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.PixelArtPlatformer_Dungeon.Elevator" Collapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Cainos.PixelArtPlatformer_Dungeon.Elevator.State" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Cainos\Pixel Art Platformer - Dungeon\Script\Elevator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEiAAIgAAAEARAkBAABJAAAAAAggAAAwAAAA=</HashCode>
+      <FileName>Assets\Cainos\Pixel Art Platformer - Dungeon\Script\Elevator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.PixelArtPlatformer_Dungeon.SwingingBladeTrap" Collapsed="true">
+    <Position X="21" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAQCAAAAEAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Pixel Art Platformer - Dungeon\Script\SwingingBladeTrap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.PixelArtPlatformer_Dungeon.Switch" Collapsed="true">
+    <Position X="22.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBAAAAAAACAAACAAICABAAAAAQAAAAAIQAAAAAQAAAA=</HashCode>
+      <FileName>Assets\Cainos\Pixel Art Platformer - Dungeon\Script\Switch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.AssetsOnlyAttribute" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\AssetsOnlyAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.BlockquoteAttribute" Collapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\BlockquoteAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.BoxGroupAttribute">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\BoxGroupAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.ButtonAttribute" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ButtonAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.DisableIfAttribute" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableIfAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.DisableInEditModeAttribute" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableInEditModeAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.DisableInPlayModeAttribute" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableInPlayModeAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.DisableLucidEditorAttribute" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableLucidEditorAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.EnableIfAttribute" Collapsed="true">
+    <Position X="29.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\EnableIfAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.FoldoutGroupAttribute">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\FoldoutGroupAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.GroupAttribute">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\GroupAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.GUIColorAttribute" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAACBAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\GUIColorAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.HelpBoxAttribute" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HelpBoxAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.HelpBoxIfAttribute" Collapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HelpBoxIfAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.HideIfAttribute" Collapsed="true">
+    <Position X="26.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HideIfAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.HideLabelAttribute" Collapsed="true">
+    <Position X="28" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HideLabelAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.HideMonoScriptAttribute" Collapsed="true">
+    <Position X="29.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HideMonoScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.HorizontalGroupAttribute">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HorizontalGroupAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.HorizontalLineAttribute" Collapsed="true">
+    <Position X="31.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAACBAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HorizontalLineAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.IndentAttribute" Collapsed="true">
+    <Position X="17.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\IndentAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.LabelTextAttribute" Collapsed="true">
+    <Position X="19.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\LabelTextAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.LabelWidthAttribute" Collapsed="true">
+    <Position X="21" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\LabelWidthAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.OnValueChangedAttribute" Collapsed="true">
+    <Position X="28" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\OnValueChangedAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.PropertyOrderAttribute" Collapsed="true">
+    <Position X="29.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\PropertyOrderAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.ReadOnlyAttribute" Collapsed="true">
+    <Position X="15.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ReadOnlyAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.RequiredAttribute" Collapsed="true">
+    <Position X="17.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\RequiredAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.SectionHeaderAttribute" Collapsed="true">
+    <Position X="22.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\SectionHeaderAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.ShowIfAttribute" Collapsed="true">
+    <Position X="26.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ShowIfAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.ShowInInspectorAttribute" Collapsed="true">
+    <Position X="28" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ShowInInspectorAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.TabGroupAttribute">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\TabGroupAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.TitleHeaderAttribute" Collapsed="true">
+    <Position X="26.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\TitleHeaderAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.ValidateInputAttribute" Collapsed="true">
+    <Position X="29.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ValidateInputAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cainos.LucidEditor.PropertyGroupAttribute">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAEAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\PropertyGroupAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.ClockDemo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEVAAgAAACAAIQGCACAAAAAIA4ggAIIEAIBAAQCBIAA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Demo\Scripts\ClockDemo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.CubitsController" Collapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAADAAEAAAAAAAAAABDAAEAAAACQAAAAAUAAA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Demo\Scripts\CubitsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.DemoDialogue" Collapsed="true">
+    <Position X="31.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBAABAAAAAAAAAAAAAAAAAAAAAAAACAAABAEAAAEA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Demo\Scripts\DemoDialogue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.DemoWindow" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAAAgAAAAAQAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Demo\Scripts\DemoWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.ExampleController" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="PixelsoftGames.PixelUI.ExampleController.ExampleControllerEvent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Reason\Pixel UI\Demo\Scripts\ExampleController.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAACwACAAAAAAAAAAAQAAEUAAABQAAAAACAAAAAA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Demo\Scripts\ExampleController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.ExperienceButton" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAACAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Demo\Scripts\ExperienceButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.ExperienceLabel" Collapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAABAAAAAAAAgAAAAAAAAAAAAIAAAAAEA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Demo\Scripts\ExperienceLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.IconDemo" Collapsed="true">
+    <Position X="15.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACAAAAAAAAAAAAAAAAEAAgAAgAAEAAAAAAA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Demo\Scripts\IconDemo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.LoadScene" Collapsed="true">
+    <Position X="22.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Demo\Scripts\LoadScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.MagicTargetController" Collapsed="true">
+    <Position X="24.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAAAAAAAAAAAAAAEBEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Demo\Scripts\MagicTargetController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.PanelController" Collapsed="true">
+    <Position X="15.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAKAAABAAAABAAAAAAAAEAAAQAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Demo\Scripts\PanelController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.PingPong" Collapsed="true">
+    <Position X="22.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAEA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Demo\Scripts\PingPong.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.Shake" Collapsed="true">
+    <Position X="24.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAACBAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Demo\Scripts\Shake.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.SlimusController" Collapsed="true">
+    <Position X="31.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABEECAAAgDCJEAABAIQmAAAAAAAAIAAAQAAAUA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Demo\Scripts\SlimusController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.SwatchButton" Collapsed="true">
+    <Position X="17.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAgAAAAAACAAAEAAAAAAAAAAAACACAEA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Demo\Scripts\SwatchButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.SwatchHandler" Collapsed="true">
+    <Position X="19.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABABAAAAAgAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Demo\Scripts\SwatchHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.CardProfile" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEIAAAgAIAIAAAgAAAIAQAAABAgIgAAgAACQ=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Scripts\CardProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.Rotator" Collapsed="true">
+    <Position X="19.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Scripts\Rotator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.UICard" Collapsed="true">
+    <Position X="29.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEBBCsAAFl1BIAMAAgAiYUIAEIMYIABAgAhBgGFIAA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Scripts\UICard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.UIClock" Collapsed="true">
+    <Position X="31.5" Y="7.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="PixelsoftGames.PixelUI.UIClock.ClockEvent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Reason\Pixel UI\Scripts\UIClock.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Enum Name="PixelsoftGames.PixelUI.UIClock.CalendarMonths" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Reason\Pixel UI\Scripts\UIClock.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABZhABUAICAAPQBgAIIgAAAQBAAgAAIUhIgUCAgEYEA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Scripts\UIClock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.UIDeck" Collapsed="true">
+    <Position X="15.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAAgQIBDACAACEAgCAAAECBQAAAAAAAQgAgAAAQhA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Scripts\UIDeck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.UIDialogueWindow" Collapsed="true">
+    <Position X="17.5" Y="8.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="PixelsoftGames.PixelUI.UIDialogueWindow.DialogueEvent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Reason\Pixel UI\Scripts\UIDialogueWindow.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Enum Name="PixelsoftGames.PixelUI.UIDialogueWindow.DialogueType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Reason\Pixel UI\Scripts\UIDialogueWindow.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="PixelsoftGames.PixelUI.UIDialogueWindow.DialogueResultType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Reason\Pixel UI\Scripts\UIDialogueWindow.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAABQAQABAAAAAAIAAAAAAgBAAAAAAQAAAEAACA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Scripts\UIDialogueWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.UIExperienceBar" Collapsed="true">
+    <Position X="19.25" Y="8.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="PixelsoftGames.PixelUI.UIExperienceBar.ExperienceBarEvent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Reason\Pixel UI\Scripts\UIExperienceBar.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QBAAABAAACIACIAABAAAAAABAAAAAAEEBEAUAgAAAEA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Scripts\UIExperienceBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.UIFader" Collapsed="true">
+    <Position X="21" Y="8.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="PixelsoftGames.PixelUI.UIFader.FadeMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Reason\Pixel UI\Scripts\UIFader.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="PixelsoftGames.PixelUI.UIFader.ComponentType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Reason\Pixel UI\Scripts\UIFader.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IASBgEAAgCSAAQCAIAAAAAAAEAAQAAIMAAAAAAAIAgA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Scripts\UIFader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.UIRescaler" Collapsed="true">
+    <Position X="22.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAACAAAAAAAAIAAAgAAAAQAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Scripts\UIRescaler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.UIStatBar" Collapsed="true">
+    <Position X="24.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAEA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Scripts\UIStatBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.UITabbedWindow" Collapsed="true">
+    <Position X="26.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEACAAAAACAAAAAAAgAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Scripts\UITabbedWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.UITooltip">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAAAABAAAAAIAAAAAAAAAAAAAAAAAAAAAACCA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Scripts\UITooltip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.PixelUI.UITypewriter" Collapsed="true">
+    <Position X="28" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQBCCAAoCAAADAAAKAAAAAAgABAAgAAQAARAAAFAEA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Scripts\UITypewriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelsoftGames.Singleton&lt;T&gt;">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Scripts\Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioManager" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAyBAAgAAiABAAAAAEAAABAAAAAAAAgBQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Script\Audio\AudioManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bullet" Collapsed="true">
+    <Position X="29.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAQGAAAEAAAAAAAAAAAEAAAAIAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Script\Bullet\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletHit" Collapsed="true">
+    <Position X="31.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Bullet\BulletHit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletPlayer" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAQGAAAEAAAAAAAAAAAEAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Bullet\BulletPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossBaseState">
+    <Position X="10.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAAAAgAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Enemy\Boss\BossBaseState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossInNomAttack">
+    <Position X="8.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASABAAAAAAAAAAAAAAAAAAgAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Enemy\Boss\BossInNomAttack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossInSkillA">
+    <Position X="10.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Enemy\Boss\BossInSkillA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossInSkillB">
+    <Position X="13" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Enemy\Boss\BossInSkillB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boss">
+    <Position X="0.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oBQobAAAAgMCA8BAIEAABBAAQICAAQAJQZAAKCQEKEY=</HashCode>
+      <FileName>Assets\Script\Enemy\Boss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy">
+    <Position X="2.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQYgQAAEAhEAIUAAYACAABIIQIwQaUALAZIBIhAACEA=</HashCode>
+      <FileName>Assets\Script\Enemy\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyAnim" Collapsed="true">
+    <Position X="31.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAEAAAAAAAAAAAAAAAAAAAQEAAAAAAAI=</HashCode>
+      <FileName>Assets\Script\Enemy\EnemyAnim.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyBaseState">
+    <Position X="9.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAABAAAAAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Enemy\OnSky\EnemyBaseState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyOnSkyBySuspend">
+    <Position X="2.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Enemy\OnSky\EnemyOnSkyBySuspend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyOnSkyBySuspenInAttack">
+    <Position X="8.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAAAAAAAAAgQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Enemy\OnSky\EnemyOnSkyBySuspenInAttack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyOnSkyBySuspenInPatrol">
+    <Position X="10.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAACAAAAAAAAAgQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Enemy\OnSky\EnemyOnSkyBySuspenInPatrol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Attack" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAgAAAAAAAAAAAAAAAAAABAAAAAAABCAA=</HashCode>
+      <FileName>Assets\Script\General\Attack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character">
+    <Position X="2.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAYAAAAgACgAABBAAAAEAAAAAAAAAAAAAAAggAAAQBA=</HashCode>
+      <FileName>Assets\Script\General\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChestCheck" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAADAACBAAEADAAAAAAgAAAAACAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\General\ChestCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorRange" Collapsed="true">
+    <Position X="26.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAgAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\General\DoorRange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapManager" Collapsed="true">
+    <Position X="26.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\General\MapManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OverCheck" Collapsed="true">
+    <Position X="29.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAACAAAAAQAAAAAAAAAEAAAAAEAAAggAAAAAA=</HashCode>
+      <FileName>Assets\Script\General\OverCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicsCheck" Collapsed="true">
+    <Position X="17.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCQAAAgAAAIAAEAEAAAAAAAABRAEAABIAAAACAIAAEA=</HashCode>
+      <FileName>Assets\Script\General\PhysicsCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformJump" Collapsed="true">
+    <Position X="24.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\General\PlatformJump.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGattribute" Collapsed="true">
+    <Position X="21" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIQAAAAEAAAAAIAQEAAggAAAEAAACAAgAAAAACAgCA=</HashCode>
+      <FileName>Assets\Script\General\RPGattribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShowMeTheRPG" Collapsed="true">
+    <Position X="29.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAEAAAAAAAAIAABAAAAACAA=</HashCode>
+      <FileName>Assets\Script\General\ShowMeTheRPG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToNextScene" Collapsed="true">
+    <Position X="28" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\Script\General\ToNextScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataExporter" Collapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEAAAAAAAAAACAIABEAAAAAAAAAAAAAABgAAAAAA=</HashCode>
+      <FileName>Assets\Script\Json\DataExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataImporter" Collapsed="true">
+    <Position X="29.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAEAAAAAIABAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Json\DataImporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmorClass" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAIAAAAAAAAAAFAAAAAQAAAAAAAgA=</HashCode>
+      <FileName>Assets\Script\Player\Armor\ArmorClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmorRamDB" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Player\Armor\ArmorRamDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickArmor" Collapsed="true">
+    <Position X="19.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQACACAAChAAGAAAQAJACAAAAAACAAQAAAAABAACAA=</HashCode>
+      <FileName>Assets\Script\Player\Armor\PickArmor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BagManager" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAQAEACwBCIAAAAAAAAACAAAAiAAIQABAiAAAAAAIEA=</HashCode>
+      <FileName>Assets\Script\Player\BagManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerAnimator" Collapsed="true">
+    <Position X="26.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAEAAAAABAAAAAAAAAAEQBAAAAAAEA=</HashCode>
+      <FileName>Assets\Script\Player\PlayerAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerController">
+    <Position X="5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAABEiiFAE0BhSEAAAgAgKAYcUSgAzQUAAAAigA=</HashCode>
+      <FileName>Assets\Script\Player\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerItemScriptableObject" Collapsed="true">
+    <Position X="28" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAACAAAAAAAAQAAACAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Player\PlayerItemScriptableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickWeapon" Collapsed="true">
+    <Position X="21" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQACADAACFAACAAAYAAAAABCACICQAIAAABAQAASAA=</HashCode>
+      <FileName>Assets\Script\Player\Weapon\PickWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponClass" Collapsed="true">
+    <Position X="31.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAIAAAAQgIAAIAAAAAAAQAAEAAAAAQAAAAAAAkA=</HashCode>
+      <FileName>Assets\Script\Player\Weapon\WeaponClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponEntryDB" Collapsed="true">
+    <Position X="15.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Player\Weapon\WeaponEntryDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponRamDB" Collapsed="true">
+    <Position X="17.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Player\Weapon\WeaponRamDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponsEntryClass" Collapsed="true">
+    <Position X="19.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAIAAAAAAAAAAEAAIAABAQAAAAAgA=</HashCode>
+      <FileName>Assets\Script\Player\Weapon\WeaponsEntryClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ramTypeClass" Collapsed="true">
+    <Position X="31.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAIAAAAAAAAACAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\Script\Player\Weapon\WeaponsEntryClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test" Collapsed="true">
+    <Position X="24.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Test\Test.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Panel" Collapsed="true">
+    <Position X="31.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIIAAAgCAAEAAAEAAAAAAgABAAAQIABAAQQAAAAMA=</HashCode>
+      <FileName>Assets\Script\Ui\Panel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StopWall" Collapsed="true">
+    <Position X="15.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\StopWall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Cainos.Common.SecondOrderDynamics" Collapsed="true">
+    <Position X="19.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgRAAAAAAABIBgAAAAAAAAAAAIAAAAAUAEAhAEAAABA=</HashCode>
+      <FileName>Assets\Cainos\Common\Script\Utils\SecondOrderDynamics.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PixelsoftGames.PixelUI.RangeInt" Collapsed="true">
+    <Position X="17.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAEEAAAAAAAAQAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Scripts\Range.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PixelsoftGames.PixelUI.Range" Collapsed="true">
+    <Position X="15.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAEEAAAAAAAAQAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Scripts\Range.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Cainos.LucidEditor.HelpBoxMessageType" Collapsed="true">
+    <Position X="24.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAAAAAEEAAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HelpBoxAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Cainos.LucidEditor.InspectorButtonSize" Collapsed="true">
+    <Position X="26.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAABgAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Cainos.LucidEditor.InspectorColor" Collapsed="true">
+    <Position X="28" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAmAARAABAAAxAAABAABAAABBABAAACAAAgADBAAIA=</HashCode>
+      <FileName>Assets\Cainos\Third Party\Lucid Editor\Runtime\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PixelsoftGames.PixelUI.CardTypes" Collapsed="true">
+    <Position X="19.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAEAACAAACAAAABAAAAAAQ=</HashCode>
+      <FileName>Assets\Reason\Pixel UI\Scripts\UIDeck.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="bossState" Collapsed="true">
+    <Position X="17.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Enemy\Boss.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="enemyStateOnSky" Collapsed="true">
+    <Position X="21" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Enemy\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ArmorType" Collapsed="true">
+    <Position X="15.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAgAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Player\Armor\ArmorClass.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WeaponQ" Collapsed="true">
+    <Position X="15.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAgCAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Player\Weapon\WeaponClass.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="entryType" Collapsed="true">
+    <Position X="22.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAIAAAAQAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Player\Weapon\WeaponsEntryClass.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ramValueType" Collapsed="true">
+    <Position X="29.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAABACAAAAABCAIAAAAABAAACAAAAAAAAgAAAAEAE=</HashCode>
+      <FileName>Assets\Script\Player\Weapon\WeaponsEntryClass.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="uniqueEntry" Collapsed="true">
+    <Position X="31.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Player\Weapon\WeaponsEntryClass.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

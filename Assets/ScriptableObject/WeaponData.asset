@@ -1,0 +1,568 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bbe7a341becb5e44b50c5815e2b1e15, type: 3}
+  m_Name: WeaponData
+  m_EditorClassIdentifier: 
+  weaponClasses:
+  - id: 0
+    name: "\u5251"
+    description: "\u4E00\u628A\u5E38\u89C1\u7684\u5251"
+    weaponQ: 0
+    damage: 10
+    isClosed: 1
+    icon: {fileID: 21300000, guid: b6722f13eaeec4136a0d94e751f0b1db, type: 3}
+    weaponModel: {fileID: 21300000, guid: 9f65eeb05efe45445a573f639cc53958, type: 3}
+    weaponsEntry_a:
+      id: 0
+      name: 0
+      description: 0
+      isRam: 0
+      uniqueEntry: 0
+      valueType:
+      - ramValueType: 0
+        realValue: 2
+        minValue: 0
+        maxValue: 10
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+    weaponsEntry_b:
+      id: 2
+      name: 2
+      description: 2
+      isRam: 2
+      uniqueEntry: 1
+      valueType: []
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+    weaponsEntry_c:
+      id: 1
+      name: 1
+      description: 1
+      isRam: 0
+      uniqueEntry: 0
+      valueType:
+      - ramValueType: 0
+        realValue: 6
+        minValue: 0
+        maxValue: 10
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+  - id: 1
+    name: "\u65A7"
+    description: "\u4E00\u628A\u5E38\u89C1\u7684\u65A7"
+    weaponQ: 0
+    damage: 15
+    isClosed: 1
+    icon: {fileID: 21300000, guid: 8ffa59be6f5b048cab42ac44d2501330, type: 3}
+    weaponModel: {fileID: 21300000, guid: 4971204ef0040a644aa5d3eaab7991de, type: 3}
+    weaponsEntry_a:
+      id: 0
+      name: 0
+      description: 0
+      isRam: 0
+      uniqueEntry: 0
+      valueType:
+      - ramValueType: 0
+        realValue: 2.402711
+        minValue: 0
+        maxValue: 10
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+    weaponsEntry_b:
+      id: 2
+      name: 2
+      description: 2
+      isRam: 2
+      uniqueEntry: 1
+      valueType: []
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+    weaponsEntry_c:
+      id: 1
+      name: 1
+      description: 1
+      isRam: 0
+      uniqueEntry: 0
+      valueType:
+      - ramValueType: 0
+        realValue: 6.9861307
+        minValue: 0
+        maxValue: 10
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+  - id: 2
+    name: "\u5DE8\u5251"
+    description: "\u4E00\u628A\u5DE8\u5927\u7684\u5251"
+    weaponQ: 0
+    damage: 18
+    isClosed: 1
+    icon: {fileID: 21300000, guid: ba2a08864e013401dbcccf1f7caaeb52, type: 3}
+    weaponModel: {fileID: 21300000, guid: 97da8dd053babf54b812d4e9f341d1c2, type: 3}
+    weaponsEntry_a:
+      id: 0
+      name: 0
+      description: 0
+      isRam: 0
+      uniqueEntry: 0
+      valueType:
+      - ramValueType: 0
+        realValue: 2.402711
+        minValue: 0
+        maxValue: 10
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+    weaponsEntry_b:
+      id: 2
+      name: 2
+      description: 2
+      isRam: 2
+      uniqueEntry: 1
+      valueType: []
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+    weaponsEntry_c:
+      id: 1
+      name: 1
+      description: 1
+      isRam: 0
+      uniqueEntry: 0
+      valueType:
+      - ramValueType: 0
+        realValue: 6.9861307
+        minValue: 0
+        maxValue: 10
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+  - id: 3
+    name: "\u957F\u5251"
+    description: "\u4E00\u628A\u5E38\u89C1\u7684\u957F\u5251"
+    weaponQ: 0
+    damage: 12
+    isClosed: 1
+    icon: {fileID: 21300000, guid: 28cab715ab1f243f5bc8ac56b11d29b3, type: 3}
+    weaponModel: {fileID: 21300000, guid: 1242395de6345a24ca8cdc92a039486d, type: 3}
+    weaponsEntry_a:
+      id: 0
+      name: 0
+      description: 0
+      isRam: 0
+      uniqueEntry: 0
+      valueType:
+      - ramValueType: 0
+        realValue: 2.402711
+        minValue: 0
+        maxValue: 10
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+    weaponsEntry_b:
+      id: 2
+      name: 2
+      description: 2
+      isRam: 2
+      uniqueEntry: 1
+      valueType: []
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+    weaponsEntry_c:
+      id: 1
+      name: 1
+      description: 1
+      isRam: 0
+      uniqueEntry: 0
+      valueType:
+      - ramValueType: 0
+        realValue: 6.9861307
+        minValue: 0
+        maxValue: 10
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+  - id: 4
+    name: "\u7CBE\u91D1\u5DE8\u65A7"
+    description: "\u91C7\u7528\u7CBE\u91D1\u6253\u9020\u7684\u5DE8\u65A7"
+    weaponQ: 1
+    damage: 24
+    isClosed: 1
+    icon: {fileID: 21300000, guid: 950a758ebcb3a4fc7a2f6ec0d7b056ac, type: 3}
+    weaponModel: {fileID: 21300000, guid: 89e5c87535883fd4190ddbbce9d3d96e, type: 3}
+    weaponsEntry_a:
+      id: 0
+      name: 0
+      description: 0
+      isRam: 0
+      uniqueEntry: 0
+      valueType:
+      - ramValueType: 0
+        realValue: 2.402711
+        minValue: 0
+        maxValue: 10
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+    weaponsEntry_b:
+      id: 2
+      name: 2
+      description: 2
+      isRam: 2
+      uniqueEntry: 1
+      valueType: []
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+    weaponsEntry_c:
+      id: 1
+      name: 1
+      description: 1
+      isRam: 0
+      uniqueEntry: 0
+      valueType:
+      - ramValueType: 0
+        realValue: 6.9861307
+        minValue: 0
+        maxValue: 10
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+  - id: 5
+    name: "\u8840\u5149"
+    description: "\u4E00\u628A\u6563\u53D1\u7740\u7EA2\u8272\u5149\u8292\u7684\u5200"
+    weaponQ: 2
+    damage: 24
+    isClosed: 1
+    icon: {fileID: 21300000, guid: 92db7c803e11e4579ac84dbce5f26870, type: 3}
+    weaponModel: {fileID: 21300000, guid: fbbda488ba1300f44825c63fec1a04be, type: 3}
+    weaponsEntry_a:
+      id: 0
+      name: 0
+      description: 0
+      isRam: 0
+      uniqueEntry: 0
+      valueType:
+      - ramValueType: 0
+        realValue: 2.402711
+        minValue: 0
+        maxValue: 10
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+    weaponsEntry_b:
+      id: 2
+      name: 2
+      description: 2
+      isRam: 2
+      uniqueEntry: 1
+      valueType: []
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+    weaponsEntry_c:
+      id: 1
+      name: 1
+      description: 1
+      isRam: 0
+      uniqueEntry: 0
+      valueType:
+      - ramValueType: 0
+        realValue: 6.9861307
+        minValue: 0
+        maxValue: 10
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+  - id: 6
+    name: "\u6B7B\u9570"
+    description: "\u6B7B\u795E\u4E4B\u9570"
+    weaponQ: 2
+    damage: 30
+    isClosed: 1
+    icon: {fileID: 21300000, guid: 922557aa7a1d67b41aceda292ce0ba9b, type: 3}
+    weaponModel: {fileID: 21300000, guid: d767757cb7bce854f8411a0c44506e7e, type: 3}
+    weaponsEntry_a:
+      id: 0
+      name: 0
+      description: 0
+      isRam: 2
+      uniqueEntry: 0
+      valueType:
+      - ramValueType: 0
+        realValue: 2.402711
+        minValue: 0
+        maxValue: 10
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+    weaponsEntry_b:
+      id: 2
+      name: 2
+      description: 2
+      isRam: 2
+      uniqueEntry: 1
+      valueType: []
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
+    weaponsEntry_c:
+      id: 1
+      name: 1
+      description: 1
+      isRam: 0
+      uniqueEntry: 0
+      valueType:
+      - ramValueType: 0
+        realValue: 6.9861307
+        minValue: 0
+        maxValue: 10
+      weapWords:
+        maxHp: 0
+        maxMp: 0
+        atk: 0
+        atkSpeed: 0
+        crit_Change: 0
+        crit_Damage: 0
+        def: 0
+        relief: 0
+        luck: 0
+        moveSpeed: 0
+        vampire_Atk: 0
+        recovery_HP: 0
+        recovery_Mp: 0
