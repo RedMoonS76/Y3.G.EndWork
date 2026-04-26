@@ -33,8 +33,8 @@ public class Enemy : Character
 
     [Header("½ğ±Ò")]
     public int goldDropAmount = 10;  // ËÀÍöµôÂäµÄ½ğ±ÒÊıÁ¿
-    private bool hasDroppedGold = false;  // ·ÀÖ¹ÖØ¸´µôÂä
-    private void Awake()
+    public bool hasDroppedGold = false;  // ·ÀÖ¹ÖØ¸´µôÂä
+    protected  virtual void Awake()
     {
         rb2d = this.GetComponent<Rigidbody2D>();
         player = GameObject.Find("Player");
@@ -48,13 +48,14 @@ public class Enemy : Character
         enemyAttackFre = enemyRpgAttribute.atkSpeed;
         SwichState(enemyStateOnSky.enemyPatrol);
 
+        OnDie.AddListener(ActionDie);
     }
     #region ×´Ì¬»úÄÚÇĞ»»
     private void OnEnable()
     {
         currentState.OnEnter(this);
     }
-    private void Update()
+    private  void Update()
     {
         currentState.LogicUpdate();
         if (currentState == inPatrol) { }
@@ -148,7 +149,7 @@ public class Enemy : Character
             TurnAround();
         }
     }
-    public void ActionDie()
+    public virtual void ActionDie()
     {
         if (!hasDroppedGold)
         {
@@ -160,7 +161,7 @@ public class Enemy : Character
     }
 
 
-    private void DropGold()
+    protected void DropGold()
     {
         if (player != null)
         {

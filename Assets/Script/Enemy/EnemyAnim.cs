@@ -21,6 +21,7 @@ public class EnemyAnim : MonoBehaviour
         if (enemy.isHurt)
         {
             anim.SetTrigger("OnHurt");
+            enemy.isHurt = false;
         }
     }
     public void EnemyAttackAnim()
